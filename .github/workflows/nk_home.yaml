@@ -8,3 +8,5 @@ on:
 jobs:
   build:
     uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/flutter_package.yml@v1
+    with:
+      coverage_excludes: "main.dart *.g.dart *.freezed.dart *.mocks.dart"
