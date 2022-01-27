@@ -14,4 +14,3 @@ jobs:
           access_token: ${{ secrets.TOKEN_GITHUB }}
           close: false
           issue: false
-          body: false
