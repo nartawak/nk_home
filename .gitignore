@@ -20,6 +20,9 @@
 # is commented out by default.
 #.vscode/
 
+.fvm
+!.fvm/fvm_config.json
+
 # Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id
