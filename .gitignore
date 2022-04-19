@@ -20,6 +20,9 @@
 # is commented out by default.
 #.vscode/
 
+.fvm
+!.fvm/fvm_config.json
+
 # Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id
@@ -44,3 +47,9 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+/coverage/lcov.info
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart

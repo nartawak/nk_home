@@ -1,0 +1,14 @@
+name: nk_home
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/flutter_package.yml@v1
+    with:
+      flutter_version: "2.10.5"
+      coverage_excludes: "main.dart *.g.dart *.freezed.dart *.mocks.dart"
+      min_coverage: 90
